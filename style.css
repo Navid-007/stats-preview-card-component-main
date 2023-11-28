@@ -45,7 +45,6 @@ body {
     background-color: var(--clr-primary-card);
 
     display: flex;
-    align-items: center;
     width: 80%;
     max-width: 900px;
 
@@ -53,9 +52,7 @@ body {
 }
 
 img {
-    height: auto;
     width: 100%;
-
     border-radius: 0 10px 10px 0;
 }
 
