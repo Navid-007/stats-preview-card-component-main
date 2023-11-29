@@ -47,13 +47,14 @@ body {
     display: flex;
     width: 80%;
     max-width: 900px;
-
     border-radius: 10px;
+     position: relative;
 }
 
 img {
-    width: 100%;
+    width: 50%;
     border-radius: 0 10px 10px 0;
+    object-fit: cover;
 }
 
 
