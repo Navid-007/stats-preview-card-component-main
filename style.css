@@ -109,6 +109,19 @@ span {
     color: var(--clr-neutral-white-trans);
 }
 
+
+
+.overlay {
+    background-color: var(--clr-primary-accent);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    opacity: 50%;
+    
+}
+
 @media (min-width: 600px) and (max-width: 650px) {
     .stats__Info {
         margin-right: 0;
