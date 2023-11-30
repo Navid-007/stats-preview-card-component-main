@@ -42,11 +42,11 @@ body {
 .statsCard {
     background-color: var(--clr-primary-card);
     width: 80%;
-    max-width: 1025.5;
+    max-width: 1025.5px;
     border-radius: 10px;
     display: flex;
 
-    position: relative;
+
 }
 
 .stats__Info {
@@ -95,7 +95,7 @@ img {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
-    width: 50%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -109,10 +109,11 @@ img {
     background-color: var(--clr-primary-accent);
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 0%;
+    width: 100%;
     height: 100%;
     opacity: 0.5;
+    border-radius: 0 10px 10px 0;
 }
 
 
@@ -165,6 +166,7 @@ img {
     .info__paragraph {
         margin-bottom: 2rem;
     }
+
 }
 
 @media (max-width: 990px) {
