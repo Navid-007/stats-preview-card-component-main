@@ -99,6 +99,12 @@ img {
     object-fit: cover;
 }
 
+.overlay__container {
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+
 .overlay {
     background-color: var(--clr-primary-accent);
     position: absolute;
@@ -133,7 +139,12 @@ img {
         width: 100%;
         top: 0;
         left: 0;
+        height: 100%;
         border-radius: 10px 10px 0 0;
+    }
+
+    .overlay__container {
+        width: 100%;
     }
 
     img {
